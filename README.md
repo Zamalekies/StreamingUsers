@@ -50,7 +50,11 @@ test  | ng test
 
 ## Output
 
-![image](https://user-images.githubusercontent.com/44745433/139751208-92f50cb1-9c5a-40f2-b946-a530d6c836c9.png)
+Structure  | Interface
+------------- | -------------
+![image](https://user-images.githubusercontent.com/44745433/139754351-e15c3cef-ee2d-467d-95e9-58c35f1faf66.png) | ![image](https://user-images.githubusercontent.com/44745433/139751208-92f50cb1-9c5a-40f2-b946-a530d6c836c9.png)
+
+
 
 #### Side notes
 The ```disconnect``` option will only remove the top value from the list in Redis
