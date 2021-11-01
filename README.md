@@ -34,7 +34,7 @@ clean  | tsc --build --clean
 start  | node app
 serve  | nodemon app.js
 
-First run a clean, then a build and then nodemon can be used to host the app
+First run a clean, then a build and then nodemon can be used to host the app. This will start the server on ```port 3000```
 
 ### Angular
 
@@ -46,7 +46,7 @@ build  | ng build
 watch  | ng build --watch --configuration development
 test  | ng test
   
-```ng serve``` is sufficient to run the application
+```ng serve``` is sufficient to run the application. This will start the service on  ```port 4200```
 
 ## Output
 
