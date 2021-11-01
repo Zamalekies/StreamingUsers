@@ -1,0 +1,16 @@
+<div class="overflow">
+  <table mat-table class="full-width" [dataSource]="this.dataSource">
+    <ng-container matColumnDef="userId">
+      <th mat-header-cell *matHeaderCellDef> User Id </th>
+      <td mat-cell *matCellDef="let element"> {{element.userId}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="title">
+      <th mat-header-cell *matHeaderCellDef> Title </th>
+      <td mat-cell *matCellDef="let element"> {{element.title}} </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+</div>
