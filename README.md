@@ -8,7 +8,7 @@ Simplest way to get up and running is to use the Redis image on docker
 ```bash
 docker pull redis 
 ```
-Start redis container exposing port 5000
+Start redis container exposing ```port 5000```
 
 ```
 docker run -d -p 5000:6379 redis
