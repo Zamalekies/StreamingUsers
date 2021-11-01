@@ -1,0 +1,30 @@
+<form class="main-form">
+  <table class="full-width" cellspacing="0">
+    <tr>
+      <td>
+        <mat-form-field class="full-width" appearance="fill">
+          <mat-label>User Id</mat-label>
+          <input matInput required [(ngModel)]="this.userId" name="userId" placeholder="ex. User123">
+        </mat-form-field>
+      </td>
+      <td>
+        <mat-form-field class="full-width" appearance="fill">
+          <mat-label>Streaming Title</mat-label>
+          <input matInput required [(ngModel)]="this.title" name="title" placeholder="ex. Titanic">
+        </mat-form-field>
+      </td>
+    </tr>
+  </table>
+
+  <table class="full-width" cellspacing="0">
+    <tr>
+      <td>
+        <button mat-button color="primary" (click)="addUser()">Connect</button>
+      </td>
+      <td>
+        <button mat-button color="warn" (click)="removeUser()">Disconnect</button>
+      </td>
+
+    </tr>
+  </table>
+</form>
