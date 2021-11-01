@@ -55,3 +55,5 @@ test  | ng test
 #### Side notes
 The ```disconnect``` option will only remove the top value from the list in Redis
 
+Example API calls can be found within the root folder and can be imported via postman 'StreamCounter.postman_collection.json'
+
